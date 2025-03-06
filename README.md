@@ -1,2 +1,2 @@
-# Thesis-Appendix on git
+# Thesis-Appendix
 Master Thesis Appendix
