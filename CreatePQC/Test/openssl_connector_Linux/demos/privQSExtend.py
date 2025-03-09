@@ -1,6 +1,4 @@
 """
-@file privQSExtend.py Combine a classical private key and QS private key into
-                      an extended private key.
 
 Usage: python privQSExtend.py <classical.pem> <quantum_safe.pem>
 
@@ -10,7 +8,6 @@ QSExtend utilities when an extended private key is expected. Normal OpenSSL
 utilities will simply interpret the extended private key as a classical
 private key.
 
-@copyright Copyright (C) 2018-2019, ISARA Corporation, All Rights Reserved.
 """
 import sys
 
