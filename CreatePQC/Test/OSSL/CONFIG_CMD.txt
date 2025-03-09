@@ -1,0 +1,2 @@
+./config --prefix=/usr/local/openssl --openssldir=/usr/local/openssl shared zlib
+
