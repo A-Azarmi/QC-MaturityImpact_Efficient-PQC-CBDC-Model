@@ -2,6 +2,8 @@
 The protection of encryption keys is important, and they often have to be protected. This is especially important for symmetric keys and the private key of a public key pair. Two standards for this are RFC3394 and RFC 5649. These support the Advanced Encryption Standard (AES) Key Wrap algorithm
 This project provides a Flask-based web application for generating, wrapping, and unwrapping RSA keys using AES-256 encryption with PBKDF2 key derivation. It also integrates with IPFS for storing encrypted metadata securely.
 
+![alt text](KeyWrappingFlow.png "KeyWrappingFlow")
+
 # Features
 
 1. RSA Key Generation: Generate RSA private keys.
