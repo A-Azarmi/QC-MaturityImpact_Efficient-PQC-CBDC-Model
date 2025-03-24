@@ -1,4 +1,7 @@
-# DKG crypto mechanism in multiSig tranactions 
+# DKG crypto mechanism in multiSig transactions 
+
+![alt text](DKG.png "DKG")
+
 
 # Protocol Steps Explanation:
 
