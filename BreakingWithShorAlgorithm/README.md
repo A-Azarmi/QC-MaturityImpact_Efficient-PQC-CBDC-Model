@@ -7,6 +7,7 @@ Qiskit is an open-source quantum computing software development framework for le
 
 If a quantum computer with a sufficient number of qubits could operate without succumbing to quantum noise and other quantum-decoherence phenomena, then Shor's algorithm could be used to break public-key cryptography schemes, such as the widely-used RSA scheme. RSA is based on the assumption that factoring large integers is computationally intractable.
 
+![alt text](FactorizerQuantumSimulatorFlow.png "FactorizerQuantumSimulatorFlow")
 
 # RSA_module Explanation
 This Python module implements a basic version of the RSA (Rivest-Shamir-Adleman) asymmetric encryption algorithm. RSA is widely used for secure data transmission, employing two keys: a public key for encryption and a private key for decryption.
