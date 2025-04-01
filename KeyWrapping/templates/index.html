@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Key Wrapper</title>
+</head>
+<body>
+    <h1>RSA Key Wrapper</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <form action="{{ url_for('generate_key') }}" method="post">
+        <button type="submit">Generate RSA Key</button>
+    </form>
+    <form action="{{ url_for('wrap_key') }}" method="post">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Wrap RSA Key</button>
+    </form>
+    <form action="{{ url_for('unwrap_key') }}" method="post">
+        <button type="submit">Unwrap RSA Key</button>
+    </form>
+</body>
+</html>
