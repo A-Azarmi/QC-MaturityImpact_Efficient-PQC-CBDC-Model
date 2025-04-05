@@ -23,7 +23,7 @@ class VerifiableDKG:
             print(f"Participant {participant} initialized with polynomial: {poly}")
 
     def _generate_polynomial(self) -> List[int]:
-        """Generate random polynomial of degree t-1"""
+        """Generate random polynomial of degree t+1"""
         return [random.randint(1, 100) for _ in range(self.t)]
     
     def _calculate_commitments(self, polynomial: List[int]) -> List[int]:
