@@ -4,9 +4,9 @@ This directory contains scripts to create an Quantum safe hybrid certificate cha
 
 # Hybrid PQC cert inspection
 
-**openssl x509 -in /opt/HybridCryptography/Thesis/certs/hybridCert.pem -text**
+**openssl x509 -in /opt/HybridCryptography/Thesis/certs/HybridPQCcert.pem -text**
 
-Certificate:
+    Certificate:
 
     Data:
     
@@ -15,14 +15,14 @@ Certificate:
         Serial Number: 4174 (0x104e)
         
     Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C=IR, ST=Tehran, L=Tehran, O=Governmetnal, OU=CentralBank, CN=CentralBankRootCA
+        Issuer: C=IR, ST=Tehran, O=Governmetnal, OU=Central Bank, CN=Central BankIssuer CA
         Validity
             Not Before: Mar 24 20:33:19 2025 GMT
             Not After : Mar 24 20:33:19 2026 GMT
-        Subject: C=IR, ST=Tehran, O=Governmetnal, OU=CentralBank, CN=CentralBankIssuerCA
+        Subject: C=IR, ST=Tehran, L=Tehran, O=Unaffiliated, CN=Amir Azarmivar
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                Public-Key: (4096 bit)
+                Public-Key: (2048 bit)
                 Modulus:
                     00:dc:3a:18:b6:27:0a:a5:79:be:53:94:00:f3:86:
                     ef:72:d8:c7:87:63:e9:07:99:5a:40:ba:7b:41:e5:
@@ -124,33 +124,34 @@ Certificate:
                     6d:f5:4e:4b:3d:dd:42:6b:2b:f7:48:b1:d9:c5:cc:
                   
 
-    Signature Algorithm: sha256WithRSAEncryption
-         02:53:4a:41:d8:01:05:ef:81:94:df:a4:a1:3a:89:14:47:3a:
-         b8:4d:57:19:47:d3:b7:c1:46:d1:e7:67:b9:49:58:66:a4:85:
-         c7:2d:5b:7a:0c:87:64:71:49:73:5a:7d:f6:48:e0:40:67:97:
-         37:1d:b1:b7:e6:ee:9e:73:f9:51:62:2c:32:d3:b8:5f:44:5c:
-         eb:e1:e3:a7:a9:6a:13:4b:bc:da:95:8a:15:ea:69:e7:9e:50:
-         6e:73:08:32:5d:b6:8d:eb:05:93:68:7b:91:38:f5:60:c9:3b:
-         5f:7e:30:2c:48:c0:ed:8c:9f:25:bd:3f:0d:10:55:2c:01:e4:
-         a8:b5:13:59:02:54:d2:15:82:d5:f6:94:4d:77:d0:69:96:5a:
-         06:d3:9e:19:14:c1:9d:ea:79:9b:4c:24:83:e0:fa:a8:e5:10:
-         d5:0b:7f:b2:83:6f:e4:e6:f9:39:61:95:1c:c6:07:dd:3d:b9:
-         46:d2:ea:9f:a0:65:f9:93:45:fd:b0:eb:cc:23:20:9a:c2:61:
-         60:b6:8e:91:77:22:64:4e:b9:fa:0e:6b:70:6b:3d:c1:b7:93:
-         68:d2:70:af:c8:4b:fe:54:3d:00:a5:75:3b:7c:8d:53:f4:23:
-         c2:dd:76:8f:68:66:32:a0:0f:9d:7d:a6:71:12:24:86:d6:d5:
-         dc:f8:15:a2:6d:34:fb:2c:f3:ee:5a:f1:ba:0c:fa:1c:39:6e:
-         eb:f9:71:b8:a2:ae:14:d6:bb:8f:e0:f9:ef:17:56:50:02:e6:
-         e3:c3:d3:a5:be:66:c3:22:d0:a0:d4:31:5a:ad:04:29:21:1a:
-         2d:a2:e8:73:50:a5:94:1b:00:28:4f:38:91:0f:23:da:8a:56:
-         7b:28:fd:a4:92:95:ee:d1:c8:e8:74:50:af:50:fc:39:d5:79:
-         07:b4:d0:ba:d7:a1:44:22:37:61:22:be:49:ab:9d:e1:0e:5c:
-         e8:ea:d7:5e:e0:6d:24:38:5d:6b:a5:a0:43:b4:75:8c:91:d8:
-         f7:b9:87:c7:0d:38:3e:f7:f8:b3:38:3c:62:a9:6d:2d:99:d4:
-         f0:7d:13:4f:3b:a6:57:10:a1:8a:35:33:64:87:3f:84:88:d0:
-         3b:9d:b9:54:23:79:71:67:d5:d6:de:f0:5f:db:d2:64:ae:34:
-         e9:52:61:b2:1e:98:9d:20:7e:07:91:be:b3:07:cf:d3:68:07:
-         71:67:6a:a1:1e:72:31:09:2a:20:bb:cc:48:3a:00:e1:e3:80:
-         3d:f5:19:2e:b5:10:d0:41:14:3c:8d:30:80:86:b0:d9:a9:3c:
-         2d:3f:67:49:6e:81:c9:7e:25:a5:20:89:dd:2f:31:34:9d:ee:
-         57:e0:93:08:10:a3:a2:d7
+                  Signature Algorithm: sha256WithRSAEncryption
+                  
+                 02:53:4a:41:d8:01:05:ef:81:94:df:a4:a1:3a:89:14:47:3a:
+                 b8:4d:57:19:47:d3:b7:c1:46:d1:e7:67:b9:49:58:66:a4:85:
+                 c7:2d:5b:7a:0c:87:64:71:49:73:5a:7d:f6:48:e0:40:67:97:
+                 37:1d:b1:b7:e6:ee:9e:73:f9:51:62:2c:32:d3:b8:5f:44:5c:
+                 eb:e1:e3:a7:a9:6a:13:4b:bc:da:95:8a:15:ea:69:e7:9e:50:
+                 6e:73:08:32:5d:b6:8d:eb:05:93:68:7b:91:38:f5:60:c9:3b:
+                 5f:7e:30:2c:48:c0:ed:8c:9f:25:bd:3f:0d:10:55:2c:01:e4:
+                 a8:b5:13:59:02:54:d2:15:82:d5:f6:94:4d:77:d0:69:96:5a:
+                 06:d3:9e:19:14:c1:9d:ea:79:9b:4c:24:83:e0:fa:a8:e5:10:
+                 d5:0b:7f:b2:83:6f:e4:e6:f9:39:61:95:1c:c6:07:dd:3d:b9:
+                 46:d2:ea:9f:a0:65:f9:93:45:fd:b0:eb:cc:23:20:9a:c2:61:
+                 60:b6:8e:91:77:22:64:4e:b9:fa:0e:6b:70:6b:3d:c1:b7:93:
+                 68:d2:70:af:c8:4b:fe:54:3d:00:a5:75:3b:7c:8d:53:f4:23:
+                 c2:dd:76:8f:68:66:32:a0:0f:9d:7d:a6:71:12:24:86:d6:d5:
+                 dc:f8:15:a2:6d:34:fb:2c:f3:ee:5a:f1:ba:0c:fa:1c:39:6e:
+                 eb:f9:71:b8:a2:ae:14:d6:bb:8f:e0:f9:ef:17:56:50:02:e6:
+                 e3:c3:d3:a5:be:66:c3:22:d0:a0:d4:31:5a:ad:04:29:21:1a:
+                 2d:a2:e8:73:50:a5:94:1b:00:28:4f:38:91:0f:23:da:8a:56:
+                 7b:28:fd:a4:92:95:ee:d1:c8:e8:74:50:af:50:fc:39:d5:79:
+                 07:b4:d0:ba:d7:a1:44:22:37:61:22:be:49:ab:9d:e1:0e:5c:
+                 e8:ea:d7:5e:e0:6d:24:38:5d:6b:a5:a0:43:b4:75:8c:91:d8:
+                 f7:b9:87:c7:0d:38:3e:f7:f8:b3:38:3c:62:a9:6d:2d:99:d4:
+                 f0:7d:13:4f:3b:a6:57:10:a1:8a:35:33:64:87:3f:84:88:d0:
+                 3b:9d:b9:54:23:79:71:67:d5:d6:de:f0:5f:db:d2:64:ae:34:
+                 e9:52:61:b2:1e:98:9d:20:7e:07:91:be:b3:07:cf:d3:68:07:
+                 71:67:6a:a1:1e:72:31:09:2a:20:bb:cc:48:3a:00:e1:e3:80:
+                 3d:f5:19:2e:b5:10:d0:41:14:3c:8d:30:80:86:b0:d9:a9:3c:
+                 2d:3f:67:49:6e:81:c9:7e:25:a5:20:89:dd:2f:31:34:9d:ee:
+                 57:e0:93:08:10:a3:a2:d7
