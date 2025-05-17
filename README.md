@@ -11,3 +11,5 @@ One of the topics in this field during the transition period is the gradual, saf
 ![alt text](TransactionFlow.png "Transaction Flow")
 
 In this modeling, one of the approaches that has been registered from a theoretical and practical perspective in implementation is the use of hybrid cryptography, the creation and role of which in the components involved in the implementation of the central bank digital currency platform has been discussed. Also, other protocols and elements involved in the implementation of a secure structure in terms of maintaining confidentiality and integrity of information have been described and used in the model.
+
+![alt text](CBDC-PQC_MindMap.png "Draft Model Desc Diagram")
