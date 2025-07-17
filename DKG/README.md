@@ -52,6 +52,8 @@ Alternatively, you can run the code directly in an online SageMath terminal by c
 
 * Print the final master public key (SHA-256 hash of combined shares)
 
+![alt text](DKA.png "DKA")
+
 # Key Components
 
 **1. Polynomial Generation**
