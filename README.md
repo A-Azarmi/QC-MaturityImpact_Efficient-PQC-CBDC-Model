@@ -1,5 +1,6 @@
-# Thesis-Appendix
-Master Thesis Appendix
+# Quantum Computing Maturity Impact, Design an Efficient PQC CBDC Model
+The Impact of Quantum Computing Maturity on Token-Based Assets: An Efficient Model for Central Bank Digital Currency Using Post-Quantum Cryptographic Approaches
+
 
 # Abstract
 The development of central bank digital currency, as a digital form of debt issued by central banks, is of interest to countries with different goals and in different formats. Given the wide range of capabilities estimated for central bank digital currency, different goals, methods, and achievements have been proposed for this type of currency, which, in addition to their complete and appropriate implementation, should ensure security in all components involved in credit processes, including the transaction core, service providers and receivers in the banking sector, and service users, in an integrated and sustainable manner.
